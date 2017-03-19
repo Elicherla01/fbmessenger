@@ -11,10 +11,7 @@ from pymessenger.bot import Bot
 
 app = Flask(__name__)
 
-FB_ACCESS_TOKEN = ""
-FB_VERIFY_TOKEN = ""
 
-bot = Bot(FB_ACCESS_TOKEN)
 
 
 @app.route('/', methods=['GET'])
